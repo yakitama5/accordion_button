@@ -68,7 +68,7 @@ class _State extends State<AccordionIconButton> {
             }
           });
         },
-        onTap: () => widget._onTap ?? null,
+        onTap: widget._onTap,
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
